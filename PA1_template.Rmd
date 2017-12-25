@@ -103,6 +103,12 @@ mean(totalSteps)
 median(totalSteps)
 ```
 
+#### Mean 10766.19
+#### Median 10766.19
+
+#### The median seems to be around same value. But Mean has changed.
+#### In the given method, both mean and median are same.
+
 ![Figure 3](figure/TotalStepsTakenAfterFillingMissingData.png)
 
 ## Are there differences in activity patterns between weekdays and weekends?
