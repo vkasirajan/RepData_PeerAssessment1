@@ -4,7 +4,14 @@ output:
   html_document:
     keep_md: true
 ---
-
+## Preparing the Environment
+```{r}
+# Clean up a little bit and set working directory.
+# Load necessary libraries
+rm(list = ls())
+setwd("C:/Data Science/05 - Reproducible Research/project1/RepData_PeerAssessment1/")
+library(ggplot2)
+```
 
 ## Loading and preprocessing the data
 
