@@ -38,7 +38,7 @@ dev.off()
 mean(totalSteps, na.rm = TRUE)
 median(totalSteps, na.rm = TRUE)
 ```
-![Figure 1](https://github.com/vkasirajan/RepData_PeerAssessment1/blob/master/figure/TotalStepsTakenEachDay.png)
+![Figure 1](figure/TotalStepsTakenEachDay.png)
 
 #### Mean 9354.23
 #### Median 10395
@@ -64,7 +64,7 @@ averageActivity[which.max(averageActivity$steps),]
 ####    interval    steps
 #### 104      835 206.1698
 
-![Figure 2](https://github.com/vkasirajan/RepData_PeerAssessment1/blob/master/figure/AverageStepsTaken.png)
+![Figure 2](figure/AverageStepsTaken.png)
 
 ## Imputing missing values
 ```{r}
@@ -103,7 +103,7 @@ mean(totalSteps)
 median(totalSteps)
 ```
 
-![Figure 3](https://github.com/vkasirajan/RepData_PeerAssessment1/blob/master/figure/TotalStepsTakenAfterFillingMissingData.png)
+![Figure 3](figure/TotalStepsTakenAfterFillingMissingData.png)
 
 ## Are there differences in activity patterns between weekdays and weekends?
 ```{r}
@@ -133,4 +133,4 @@ ggplot(averageActivity, aes(interval, steps)) +
 dev.copy(png, "figure/ActivityPatternWeekDaysAndWeekEnds.png")
 dev.off()
 ```
-![Figure 4](https://github.com/vkasirajan/RepData_PeerAssessment1/blob/master/figure/ActivityPatternWeekDaysAndWeekEnds.png)
+![Figure 4](figure/ActivityPatternWeekDaysAndWeekEnds.png)
